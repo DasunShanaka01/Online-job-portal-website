@@ -1,0 +1,24 @@
+/*Header*/
+
+header{
+    background-color: #486788; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center;
+    }
+}
+hr{
+    height:5px;
+    background-color: black;
+}
+
+
+
+

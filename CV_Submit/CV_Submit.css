@@ -1,0 +1,218 @@
+/*Header*/
+
+ul.menu{
+    font-size: 25px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(108, 141, 160);
+    text-align: center;
+    border-radius: 600px;
+}
+
+li a:hover {
+    background-color: #414850;
+    color:white;
+}
+
+li{
+    display: inline;
+}
+
+header{
+    background-color: #486788; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+#login{ 
+    background-color:rgb(23, 157, 235);
+    color:white;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+#login:hover {
+    background-color: #555a5c;
+  }
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center;
+    }
+}
+hr{
+    height:5px;
+    background-color: black;
+}
+
+.menu{
+    color: rgb(23, 157, 235);
+    display: flex;
+    padding: 16px 32px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#person_icon, #login {
+    margin: 8px auto; /* Center icons and button horizontally */
+}
+
+
+
+/*Body*/ 
+
+
+/* Overall form styling */
+form {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 45px;
+    background-color: #f2f2f2;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  h2 {
+    color: #2077bd;
+    margin-bottom: 15px;
+  }
+  
+  /* Input and select styling */
+  input[type=text],
+  input[type=email],
+  input[type=number],
+  input[type=tel],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+ 
+  select {
+    appearance: none; /* Remove default dropdown style */
+  }
+  
+  option {
+    font-size: 16px;
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Submit button styling */
+  #submit {
+    background-color: #2077bd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #submit:hover {
+    background-color: #3399cc;
+  }
+  
+  /* Horizontal line styling */
+  hr {
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 30px;
+  }
+
+/*Footer*/
+
+footer {
+    background-color: #486788; 
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%; 
+  }
+  
+  .footer-logo,
+  .footer-contact,
+  .footer-address,
+  .footer-social,
+  .footer-qr {
+    flex: 1; 
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footer-logo img {
+    width: 250px; 
+    height: auto; 
+  }
+  
+  .footer-contact a {
+    color: #007bff; 
+    text-decoration: none; 
+    transition: all 0.2s ease-in-out; 
+    font-size: 18px;
+  }
+  
+  .footer-contact a:hover {
+    color: black; 
+  }
+  
+  .footer-contact{
+    margin-top: 29px;
+  }
+
+  .footer-contact p {
+    margin-top: 5px; 
+  }
+  
+  .footer-address p {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+  
+  .footer-social img{
+    width: 250px; 
+    height: auto; 
+  }
+  .footer-qr img {
+    width: 150px; 
+    height: auto; 
+  }
+  
+  .footer-copyright {
+    width: 100%; 
+    text-align: center; 
+    padding: 10px;
+    background-color: #ddd; 
+  }
+
+  
+@media only screen and (max-width: 768px){
+    
+}
+

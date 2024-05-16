@@ -1,0 +1,222 @@
+/*Header*/
+
+ul.menu{
+    font-size: 25px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(23, 157, 235);
+    text-align: center;
+    border-radius: 600px;
+}
+
+li a:hover {
+    background-color: #414850;
+    color:white;
+}
+
+li{
+    display: inline;
+}
+
+header{
+    background-color: #486788; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+#login{ 
+    background-color:rgb(23, 157, 235);
+    color:white;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+#login:hover {
+    background-color: #555a5c;
+  }
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center;
+    }
+}
+hr{
+    height:5px;
+    background-color: black;
+}
+
+.menu{
+    color: rgb(23, 157, 235);
+    display: flex;
+    padding: 16px 32px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#person_icon, #login {
+    margin: 8px auto; /* Center icons and button horizontally */
+}
+
+
+.container{
+    text-align: left;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+ 
+
+
+/* Overall form styling */
+form {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 45px;
+    background-color: #f2f2f2;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  h2 {
+    color: #2077bd;
+    margin-bottom: 15px;
+  }
+  
+ /* Input and select styling */
+ input[type=text],
+ input[type=email],
+ input[type=number],
+ select {
+   width: 80%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   font-size: 16px;
+ }
+
+  select {
+    appearance: none; /* Remove default dropdown style */
+  }
+  
+  option {
+    font-size: 16px;
+  }
+  
+ 
+  /* Horizontal line styling */
+  hr {
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 30px;
+  }
+
+
+.fieldinput{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;  
+
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+ /* Submit button styling */
+.btn{
+    background-color: #3399cc;
+    background-color: #2077bd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    background-color: #486788; 
+}
+
+
+
+#icons{
+    position: absolute;
+    padding-top: 50px;
+}
+
+#contact{
+    position: absolute;
+    left: 650px;
+    padding-top: 20px;
+}
+
+#address{
+    position: absolute;
+    right: 500px;
+    padding-top: 20px;
+}
+
+#qr_code{
+    position: absolute;
+    padding-top: 5px;
+    left: 1400px;
+}
+
+#address{
+    position: relative;
+    left: 670px;
+}
+
+#right{
+    position: absolute;
+    left: 1250px;
+    padding-top: 100px;
+}
+
+#login{
+    background-color: rgb(23, 157, 235);
+    color: white;
+}
+
+#login:hover{
+    background-color: #414850;
+}
+
+hr{
+    height:5px;
+    background-color: black;
+}
+ 
